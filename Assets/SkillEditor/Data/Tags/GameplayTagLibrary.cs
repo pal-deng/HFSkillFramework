@@ -95,6 +95,16 @@ namespace SkillEditor.Data
         public static GameplayTag CD_践踏 { get; } = new GameplayTag("CD.践踏");
 
         /// <summary>
+        /// CD_2
+        /// </summary>
+        public static GameplayTag CD_2 { get; } = new GameplayTag("CD_2");
+
+        /// <summary>
+        /// CD_2.横扫2
+        /// </summary>
+        public static GameplayTag CD_2_横扫2 { get; } = new GameplayTag("CD_2.横扫2");
+
+        /// <summary>
         /// Skill
         /// </summary>
         public static GameplayTag Skill { get; } = new GameplayTag("Skill");
@@ -144,6 +154,8 @@ namespace SkillEditor.Data
             ["CD.神罗天正"] = CD_神罗天正,
             ["CD.被动回血"] = CD_被动回血,
             ["CD.践踏"] = CD_践踏,
+            ["CD_2"] = CD_2,
+            ["CD_2.横扫2"] = CD_2_横扫2,
             ["Skill"] = Skill,
             ["Skill.Running"] = Skill_Running,
             ["unitType"] = unitType,

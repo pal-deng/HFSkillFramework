@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2abec0374da61478151f6b840fbb7a, type: 3}
+  m_Name: "\u6A2A\u626B2"
+  m_EditorClassIdentifier: 
+  nodes:
+  - rid: 7925681730299363328
+  - rid: 7925681730299363329
+  - rid: 7925681730299363330
+  - rid: 7925681730299363333
+  - rid: 7925681730299363334
+  - rid: 7925681730299363335
+  - rid: 7925681730299363336
+  - rid: 7925681730299363337
+  - rid: 7925681730299363338
+  connections:
+  - outputNodeGuid: 0fd90da8-11c6-49c8-8bba-c6057fe013bb
+    outputPortName: "\u6D88\u8017"
+    inputNodeGuid: 4b408feb-71cd-4a47-85ba-bf6a5a471c6a
+    inputPortName: "\u8F93\u5165"
+  - outputNodeGuid: 0fd90da8-11c6-49c8-8bba-c6057fe013bb
+    outputPortName: "\u51B7\u5374"
+    inputNodeGuid: 76370363-0ce0-4096-b7a9-60a51c770f8f
+    inputPortName: "\u8F93\u5165"
+  - outputNodeGuid: 0fd90da8-11c6-49c8-8bba-c6057fe013bb
+    outputPortName: "\u52A8\u753B"
+    inputNodeGuid: 75f0238c-4f60-4f4b-8eaf-138c18300f9f
+    inputPortName: "\u8F93\u5165"
+  - outputNodeGuid: 75f0238c-4f60-4f4b-8eaf-138c18300f9f
+    outputPortName: d851a8b7-519d-47ed-8201-70090b8f5610
+    inputNodeGuid: 87e2d403-cd6b-4a50-be68-20554c0fc061
+    inputPortName: "\u8F93\u5165"
+  - outputNodeGuid: 75f0238c-4f60-4f4b-8eaf-138c18300f9f
+    outputPortName: 821b874a-2c4b-4275-afae-19da517e8848
+    inputNodeGuid: 9a795a61-a176-4e15-8a34-56df065570bf
+    inputPortName: "\u8F93\u5165"
+  - outputNodeGuid: 75f0238c-4f60-4f4b-8eaf-138c18300f9f
+    outputPortName: b904a3dd-4a1d-4f9e-9fd8-7f57e1c1d4a7
+    inputNodeGuid: de88d098-9313-416e-8851-46b3acc3212d
+    inputPortName: "\u8F93\u5165"
+  - outputNodeGuid: de88d098-9313-416e-8851-46b3acc3212d
+    outputPortName: "\u5BF9\u6BCF\u4E2A\u76EE\u6807"
+    inputNodeGuid: 837314e6-18da-4ee3-a906-4cda80171046
+    inputPortName: "\u8F93\u5165"
+  - outputNodeGuid: 837314e6-18da-4ee3-a906-4cda80171046
+    outputPortName: "\u5B8C\u6210\u6548\u679C"
+    inputNodeGuid: ff9e50fc-274c-4267-87de-7cb635cac041
+    inputPortName: "\u8F93\u5165"
+  references:
+    version: 2
+    RefIds:
+    - rid: 7925681730299363328
+      type: {class: AbilityNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: 0fd90da8-11c6-49c8-8bba-c6057fe013bb
+        nodeType: 0
+        position: {x: 190, y: 248}
+        targetType: 1
+        skillId: 0
+        assetTags:
+          _tags: []
+        cancelAbilitiesWithTags:
+          _tags: []
+        blockAbilitiesWithTags:
+          _tags: []
+        activationOwnedTags:
+          _tags: []
+        activationRequiredTags:
+          _tags: []
+        activationBlockedTags:
+          _tags:
+          - _name: "CD_2.\u6A2A\u626B2"
+            _hashCode: 275226163
+            _shortName: "\u6A2A\u626B2"
+            _ancestorHashCodes: 18322d7d
+            _ancestorNames:
+            - CD_2
+        ongoingBlockedTags:
+          _tags: []
+        eventOutputPorts: []
+    - rid: 7925681730299363329
+      type: {class: CostEffectNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: 4b408feb-71cd-4a47-85ba-bf6a5a471c6a
+        nodeType: 3
+        position: {x: -82, y: 137}
+        targetType: 1
+        assetTags:
+          _tags: []
+        grantedTags:
+          _tags: []
+        applicationRequiredTags:
+          _tags: []
+        applicationImmunityTags:
+          _tags: []
+        removeGameEffectsWithTags:
+          _tags: []
+        durationType: 0
+        duration: 0
+        isPeriodic: 0
+        period: 1
+        executeOnApplication: 0
+        attributeModifiers:
+        - attrType: 100
+          operation: 0
+          magnitudeSourceType: 0
+          fixedValue: 1
+          formula: 
+          mmcType: 0
+          setByCallerKey: 
+          mmcCaptureAttribute: 200
+          mmcAttributeSource: 0
+          mmcCoefficient: 1
+          mmcUseSnapshot: 1
+        stackType: 0
+        stackLimit: 0
+        stackDurationRefreshPolicy: 0
+        stackPeriodResetPolicy: 0
+        stackExpirationPolicy: 0
+        stackOverflowPolicy: 0
+        ongoingRequiredTags:
+          _tags: []
+        cancelOnAbilityEnd: 0
+    - rid: 7925681730299363330
+      type: {class: CooldownEffectNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: 76370363-0ce0-4096-b7a9-60a51c770f8f
+        nodeType: 10
+        position: {x: 18, y: 342}
+        targetType: 1
+        assetTags:
+          _tags: []
+        grantedTags:
+          _tags:
+          - _name: "CD_2.\u6A2A\u626B2"
+            _hashCode: 275226163
+            _shortName: "\u6A2A\u626B2"
+            _ancestorHashCodes: 18322d7d
+            _ancestorNames:
+            - CD_2
+        applicationRequiredTags:
+          _tags: []
+        applicationImmunityTags:
+          _tags: []
+        removeGameEffectsWithTags:
+          _tags: []
+        durationType: 1
+        duration: 0
+        isPeriodic: 0
+        period: 1
+        executeOnApplication: 0
+        attributeModifiers: []
+        stackType: 0
+        stackLimit: 0
+        stackDurationRefreshPolicy: 0
+        stackPeriodResetPolicy: 0
+        stackExpirationPolicy: 0
+        stackOverflowPolicy: 0
+        ongoingRequiredTags:
+          _tags: []
+        cancelOnAbilityEnd: 0
+        cooldownType: 0
+        maxCharges: 2
+        chargeTime: 10
+    - rid: 7925681730299363333
+      type: {class: ParticleCueNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: 9a795a61-a176-4e15-8a34-56df065570bf
+        nodeType: 12
+        position: {x: 1529, y: -6}
+        targetType: 1
+        requiredTags:
+          _tags: []
+        immunityTags:
+          _tags: []
+        destroyWithNode: 0
+        positionSource: 0
+        particlePrefab: {fileID: 292125255928079858, guid: 804301720a808ab4885fc27e730bf28a,
+          type: 3}
+        particleBindingName: center
+        particleOffset: {x: 0, y: 0, z: 0}
+        particleScale: {x: 1, y: 1, z: 1}
+        attachToTarget: 0
+        particleLoop: 0
+    - rid: 7925681730299363334
+      type: {class: AnimationNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: 75f0238c-4f60-4f4b-8eaf-138c18300f9f
+        nodeType: 20
+        position: {x: 340, y: -266}
+        targetType: 1
+        skeletonDataAsset: {fileID: 11400000, guid: 3754b23f7ac951e42ab7bce09051b229,
+          type: 2}
+        animationName: Attack_01
+        animationDuration: 18
+        isAnimationLooping: 0
+        timeEffects:
+        - triggerTime: 18
+          portId: d851a8b7-519d-47ed-8201-70090b8f5610
+        - triggerTime: 7
+          portId: b904a3dd-4a1d-4f9e-9fd8-7f57e1c1d4a7
+        timeCues:
+        - startTime: 0
+          endTime: 41
+          portId: 821b874a-2c4b-4275-afae-19da517e8848
+    - rid: 7925681730299363335
+      type: {class: EndAbilityTaskNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: 87e2d403-cd6b-4a50-be68-20554c0fc061
+        nodeType: 7
+        position: {x: 1529, y: 95}
+        targetType: 1
+        endType: 0
+    - rid: 7925681730299363336
+      type: {class: SearchTargetTaskNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: de88d098-9313-416e-8851-46b3acc3212d
+        nodeType: 4
+        position: {x: 1529, y: 222}
+        targetType: 1
+        searchShapeType: 1
+        searchLineType: 0
+        positionSource: 0
+        positionBindingName: center
+        searchCircleRadius: 5
+        searchSectorRadius: 5
+        searchSectorAngle: 180
+        searchLineDirectionOffsetAngle: 0
+        searchLineDirectionWidth: 1
+        searchLineDirectionLength: 10
+        lineStartPositionSource: 0
+        lineStartBindingName: 
+        lineEndPositionSource: 1
+        lineEndBindingName: 
+        searchLineBetweenWidth: 1
+        searchLineAbsoluteAngle: 0
+        searchLineAbsoluteWidth: 1
+        searchLineAbsoluteLength: 10
+        maxTargets: 999
+        searchTargetTags:
+          _tags:
+          - _name: unitType.monster
+            _hashCode: -2021655864
+            _shortName: monster
+            _ancestorHashCodes: 6c74655f
+            _ancestorNames:
+            - unitType
+        searchExcludeTags:
+          _tags: []
+    - rid: 7925681730299363337
+      type: {class: FloatingTextCueNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: ff9e50fc-274c-4267-87de-7cb635cac041
+        nodeType: 14
+        position: {x: 1909, y: 379}
+        targetType: 1
+        requiredTags:
+          _tags: []
+        immunityTags:
+          _tags: []
+        destroyWithNode: 0
+        positionSource: 2
+        positionBindingName: head
+        textType: 0
+        fixedText: 
+        contextDataKey: DamageResult
+        textColor: {r: 0.8679245, g: 0, b: 0.6310103, a: 1}
+        criticalColor: {r: 1, g: 0.5, b: 0, a: 1}
+        missColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+        fontSize: 45
+        criticalFontSize: 60
+        duration: 1.5
+        offset: {x: 0, y: 0}
+        moveDirection: {x: 0, y: 1}
+    - rid: 7925681730299363338
+      type: {class: DamageEffectNodeData, ns: SkillEditor.Data, asm: SkillEditor.Data}
+      data:
+        guid: 837314e6-18da-4ee3-a906-4cda80171046
+        nodeType: 1
+        position: {x: 1819, y: 222}
+        targetType: 0
+        assetTags:
+          _tags: []
+        grantedTags:
+          _tags: []
+        applicationRequiredTags:
+          _tags: []
+        applicationImmunityTags:
+          _tags: []
+        removeGameEffectsWithTags:
+          _tags: []
+        durationType: 0
+        duration: 0
+        isPeriodic: 0
+        period: 1
+        executeOnApplication: 0
+        attributeModifiers: []
+        stackType: 0
+        stackLimit: 0
+        stackDurationRefreshPolicy: 0
+        stackPeriodResetPolicy: 0
+        stackExpirationPolicy: 0
+        stackOverflowPolicy: 0
+        ongoingRequiredTags:
+          _tags: []
+        cancelOnAbilityEnd: 0
+        damageType: 0
+        damageSourceType: 0
+        damageFixedValue: 6
+        damageFormula: 
+        damageMMCType: 0
+        damageSetByCallerKey: 
+        damageMMCCaptureAttribute: 200
+        damageMMCAttributeSource: 0
+        damageMMCCoefficient: 1
+        damageMMCUseSnapshot: 1
+        damageMultiplyByStackCount: 0
+        damageCalculationType: 0

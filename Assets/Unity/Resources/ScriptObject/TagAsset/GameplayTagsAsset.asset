@@ -1,5 +1,5 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,7 +16,7 @@ MonoBehaviour:
   - name: Root
     id: 0
     parentId: -1
-    childrenIds: 30000000440000004900000055000000
+    childrenIds: 3000000044000000490000005500000057000000
   - name: unitType
     id: 48
     parentId: 0
@@ -100,6 +100,14 @@ MonoBehaviour:
   - name: Running
     id: 86
     parentId: 85
+    childrenIds: 
+  - name: CD_2
+    id: 87
+    parentId: 0
+    childrenIds: 58000000
+  - name: "\u6A2A\u626B2"
+    id: 88
+    parentId: 87
     childrenIds: 
   _cachedTags:
   - _name: Buff
@@ -198,6 +206,17 @@ MonoBehaviour:
     _ancestorHashCodes: aba22dbc
     _ancestorNames:
     - CD
+  - _name: CD_2
+    _hashCode: 2100113944
+    _shortName: CD_2
+    _ancestorHashCodes: 
+    _ancestorNames: []
+  - _name: "CD_2.\u6A2A\u626B2"
+    _hashCode: 275226163
+    _shortName: "\u6A2A\u626B2"
+    _ancestorHashCodes: 18322d7d
+    _ancestorNames:
+    - CD_2
   - _name: Skill
     _hashCode: 1312877309
     _shortName: Skill
@@ -226,4 +245,4 @@ MonoBehaviour:
     _ancestorHashCodes: 6c74655f
     _ancestorNames:
     - unitType
-  _nextId: 87
+  _nextId: 89

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "cn.tuanjie.ai.generators": "file:D:/unityRes/sourceCode/XHSkill/HFSkillFramework/.codely-cli/extensions/TJGenerators/Packages/cn.tuanjie.ai.generators"
+  }
+}
